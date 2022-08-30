@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AgroManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:Agro_Management_System.Agro_Management_SystemDataSet.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.StaffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.MngmentPracticesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.ProductDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.StaffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.MngmentPracticesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.ProductRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.StaffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.MngmentPracticesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet.ProductRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.DepartmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.StaffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.MngmentPracticesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.ProductTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Agro_Management_System.Agro_Management_SystemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Agro_Management_System.Agro_Management_SystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Agro_Management_System.Agro_Management_SystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.UpdateAll(Agro_Management_System.Agro_Management_SystemDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Agro_Management_System.Agro_Management_SystemDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Agro_Management_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Agro_Management_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Agro_Management_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
